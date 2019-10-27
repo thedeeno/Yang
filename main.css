@@ -103,6 +103,14 @@ iframe {
   max-width: 350px;
 }
 
+.fdmath {
+  padding: 30px;
+  background-color: rgba(100, 17, 14, 0.165) a;
+  color: #111;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
 @media (min-width: 720px) {
   .intro section {
     width: 50%;
