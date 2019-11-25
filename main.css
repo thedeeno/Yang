@@ -5,7 +5,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -25,13 +25,13 @@ html {
 h2 {
   color: #0e2b64;
   font-size: 18px;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   letter-spacing: 1px;
   margin: 25px 0 15px 0;
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   color: #0e2b64;
   margin-bottom: 10px;
@@ -46,6 +46,10 @@ li {
   color: #333;
 }
 
+.color-band p,
+.color-band li {
+  color: #fff;
+}
 a {
   color: #0e2b64;
 }
@@ -65,7 +69,7 @@ a:hover {
   height: auto;
   min-height: 200px;
   width: 100%;
-  background: #0e2b64 url('/assets/1500x500.jpg') no-repeat center center;
+  background: #0e2b64 url("/assets/1500x500.jpg") no-repeat center center;
   border-bottom: red 5px solid;
 }
 
@@ -125,6 +129,15 @@ iframe {
   font-size: 14px;
 }
 
+.fdmath-link {
+  font-weight: 800;
+}
+.fdmath-link a {
+  display: block;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
 /* Color Background Text Section */
 .color-band,
 footer {
@@ -180,6 +193,7 @@ section.text-content a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: flex-start;
 }
 
 @media (min-width: 720px) {
