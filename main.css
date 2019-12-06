@@ -124,9 +124,10 @@ iframe {
 .goal {
   padding: 20px;
   background-color: #0e2b642a;
-  color: #111;
+  color: rgb(30, 42, 66);
   margin: 20px 0;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .fdmath-link {
