@@ -210,3 +210,9 @@ footer div {
   font-size: 14px;
   padding: 25px;
 }
+
+footer div a,
+footer div a:hover {
+  color: #fff;
+  opacity: 0.6;
+}
