@@ -20,6 +20,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/social-thumb.jpg": {
+		"ft": 16384,
+		"iS": 230857,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/social-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/Y_Favicon-1-300x300.png": {
 		"ft": 32768,
 		"iS": 32651,
