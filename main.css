@@ -107,36 +107,30 @@ iframe {
   max-width: 350px;
 }
 
-.fdmath {
-  padding: 30px;
-  background-color: rgba(100, 17, 14, 0.165) a;
+.cta-box {
+  padding: 20px;
+  background-color: rgba(68, 151, 60, 0.404);
   color: #111;
   margin: 20px 0;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+
+.cta-box strong {
+  font-weight: 800;
+  color: rgb(18, 23, 17);
+  font-size: 17px;
+}
+
+.cta-box a {
+  color: rgb(5, 6, 48);
 }
 
 @media (min-width: 720px) {
   .intro section {
     width: 50%;
   }
-}
-
-.goal {
-  padding: 20px;
-  background-color: #0e2b642a;
-  color: rgb(30, 42, 66);
-  margin: 20px 0;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.fdmath-link {
-  font-weight: 800;
-}
-.fdmath-link a {
-  display: block;
-  font-weight: 400;
-  margin-top: 5px;
 }
 
 /* Color Background Text Section */
