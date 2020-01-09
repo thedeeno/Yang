@@ -20,6 +20,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/social-thumb-videos-2.png": {
+		"ft": 32768,
+		"iS": 812260,
+		"oA": 0,
+		"oAP": "/assets/social-thumb-videos-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/social-thumb-videos.png": {
 		"ft": 32768,
 		"iS": 860600,
