@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.vscode/settings.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/.vscode/settings.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/assets/1500x500.jpg": {
 		"ft": 16384,
 		"iS": 234022,
@@ -18,6 +26,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/desmoines.png": {
+		"ft": 32768,
+		"iS": 872631,
+		"oA": 0,
+		"oAP": "/assets/desmoines.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/social-thumb-videos-2.png": {

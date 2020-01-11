@@ -24,34 +24,42 @@ html {
 /* Typography */
 h2 {
   color: #0e2b64;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Roboto Slab", serif;
   letter-spacing: 1px;
-  margin: 25px 0 15px 0;
+  margin: 20px 0;
 }
 
 h1 {
   font-family: "Roboto Slab", serif;
-  font-size: 21px;
+  font-size: 24px;
   color: #0e2b64;
   margin-bottom: 10px;
 }
+p,
+li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #333;
+}
 @media (min-width: 720px) {
   h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   p,
   li {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
   }
 }
 
-p,
-li {
-  font-size: 15px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-  color: #333;
+.highlight {
+  color: rgb(179, 19, 19);
+  /* display: inline-block; */
+  border-bottom: 1px solid rgb(179, 19, 19);
 }
 
 .color-band p,
@@ -123,6 +131,27 @@ a:hover {
   padding: 15px 25px 0 25px;
 }
 
+.policy-title {
+  margin-top: 25px;
+}
+
+.video-title {
+  font-size: 12px;
+  text-align: center;
+  margin: -20px 0 20px 0;
+}
+
+.esm-graphic {
+  width: 100%;
+  height: auto;
+  margin: 10px 0 15px 0;
+}
+@media (min-width: 720px) {
+  .esm-graphic {
+    padding: 10px 20px;
+  }
+}
+
 @media (min-width: 720px) {
   .intro section {
     padding: 15px 25px;
@@ -179,13 +208,27 @@ iframe {
   }
 }
 
+.mobile-video-nav {
+  margin-bottom: 20px;
+}
+
+.mobile-video-nav h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .video-list {
   padding: 0 0 0 16px;
 }
 .video-list li {
-  margin: 7px 0;
+  margin: 17px 0;
+  text-align: center;
+  list-style-type: none;
   font-size: 14px;
   line-height: 1.2;
+}
+.ta-left li {
+  text-align: left;
 }
 @media (min-width: 720px) {
   .video-list li {
@@ -214,8 +257,16 @@ iframe {
   background-color: rgba(60, 143, 151, 0.404);
 }
 @media (min-width: 720px) {
-  .intro section {
-    width: 50%;
+  .intro section.text-column {
+    width: 60%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 5px;
+  }
+
+  .intro section.video-column {
+    width: 40%;
+    padding-left: 50px;
   }
 }
 
@@ -229,6 +280,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 25px;
+}
+@media (min-width: 720px) {
+  .color-band {
+    margin-top: 20px;
+    padding: 15px 0 10px 0;
+  }
 }
 
 section.text-content {
