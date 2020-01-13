@@ -38,7 +38,7 @@ helpers do
     uri = URI("https://www.youtube.com/embed/#{video_id}").tap { |uri|
       params = Hash.new.tap { |hash|
         hash[:cc_load_policy] = 1 if options.delete(:closed_captioning)
-        hash[:cc_lang_pref] = accepted_locales.first if options.delete(:use_http_accept_language)
+        hash[:cc_lang_pref] = accepted_locales.first if options.delete(:use_http_accept_language) && accepted_locales.first
       }
       uri.query = URI.encode_www_form(params)
     }
