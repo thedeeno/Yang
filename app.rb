@@ -14,6 +14,40 @@ def accepted_locales(http_accept_language = request.env['HTTP_ACCEPT_LANGUAGE'])
   langs.sort_by { |lang, q| q }.map { |lang, q| lang }.reverse
 end
 
+helpers do
+
+  def content_tag(tag, content = nil, options = {})
+    tag = tag.to_s
+    html = "<#{tag}"
+    options.each do |attribute, value|
+      html << " #{attribute}=\"#{value}\""
+    end
+    html << (content ? ">#{content}</#{tag}>" : " />")
+  end
+
+  def youtube_iframe_embed(video_id:, **options)
+    options = {
+      closed_captioning: true,
+      use_http_accept_language: true,
+      width: 560,
+      height: 315,
+      frameborder: 0,
+      allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+      allowfullscreen: true
+    }.merge(options)
+
+    uri = URI("https://www.youtube.com/embed/#{video_id}").tap { |uri|
+      params = Hash.new.tap { |hash|
+        hash[:cc_load_policy] = 1 if options.delete(:closed_captioning)
+        hash[:cc_lang_pref] = accepted_locales.first if options.delete(:use_http_accept_language)
+      }
+      uri.query = URI.encode_www_form(params)
+    }
+
+    content_tag(:iframe, true, src: uri.to_s, **options)
+  end
+end
+
 configure do
   I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
   I18n.load_path += Dir[File.join(settings.root, 'locales', '*.yml')]
