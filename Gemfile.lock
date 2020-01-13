@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.5)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.1.1)
+    rack-protection (2.0.8.1)
+      rack
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  i18n
+  sinatra
+
+BUNDLED WITH
+   1.17.2
