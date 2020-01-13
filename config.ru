@@ -1,5 +1,3 @@
-require 'sinatra'
+require './app'
 
-get '/' do
-  erb :index
-end
+run Sinatra::Application
