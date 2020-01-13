@@ -15,7 +15,6 @@ def accepted_locales(http_accept_language = request.env['HTTP_ACCEPT_LANGUAGE'])
 end
 
 helpers do
-
   def content_tag(tag, content = nil, options = {})
     tag = tag.to_s
     html = "<#{tag}"
