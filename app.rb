@@ -1,6 +1,11 @@
 require 'sinatra'
 require 'i18n'
 require 'i18n/backend/fallbacks'
+require "sinatra/reloader" if development?
+
+configure :development do
+  enable :reloader
+end
 
 configure do
   I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
