@@ -1,2 +1,104 @@
 es:
-  header: ¿Quien es Andrew Yang?
+  title: Una presentación de Andrew Yang
+  language_toggle: IN ENGLISH
+  intro:
+    header: ¿Quien es Andrew Yang?
+    a: |
+      Andrew es un líder inteligente, pragmático, que prioriza en la humanidad y que
+      esta enfocado en unir a nuestro país. <span class="highlight">No es izquierda, no es derecha, es
+      adelante.</span>
+    b: |
+      Juntos podemos eliminar la pobreza, transformar nuestra economía para
+      combatir la automatización de los trabajos comunes y poner fin a la
+      mentalidad de escasez.
+    c: |
+      Freedom Dividend es una de las más de <a
+      href="https://www.yang2020.com/policies/" title="Enlace a las políticas
+      de Andrew Yang">150 políticas</a> que transformaría las ciudades de todo
+      Estados Unidos al otorgar a cada adulto $ 1,000 al mes.
+    img:
+      alt: Freedom Diviend for Des Moines Iowa
+    impact: |
+      Vea cómo mil dolares afectaría a su comunidad
+      <a
+        href="https://everysinglemonth.org/"
+        title="Aprenda que tanto aportaría el Freedom Dividend a su comunidad"
+      >
+        cada mes
+      </a>
+      y visite
+      <a
+        href="https://freedom-dividend.com/"
+        title="Aprenda los detalles detras de la politica del Freedom Dividend"
+      >
+        Freedom-dividend.com
+      </a>
+      para conocer las matemáticas detrás de esta política.
+  learn:
+    header: Aprenda sobre las politicas de Andrew Yang
+  video:
+    iowa_press: Entrevista con Iowa Press PBS
+    iowa_speech: Discurso de Libertad y Justicia del Partido Demócrata de Iowa
+    iowa_register: Andrew Yang se reúne con el consejo editorial del Registro de Des Moines
+  debates:
+    teaser: Andrew Yang en los debates
+    header: Actuaciones en los debates
+  interviews:
+    teaser: Entrevista largas con Andrew Yang
+    header: Entrevistas largas
+  victory:
+    header: El camino de Andrew Yang hacia la victoria/hacia el exito
+    a: |
+      ¡Andrew está comenzando a ganar traccion! Y de todos los candidatos,
+      <a
+        href="https://twitter.com/nerdsforyang/status/1210970613826904065"
+        title="El pegue de Andrew Yang con Independientes y Republicanos"
+      >
+        tiene la mayor preferencia
+      </a> con los republicanos e independientes.
+    b: |
+      Iowa y New Hampshire ni siquiera votan hasta principios de 2020 y a veces
+      seleccionan a alguien sorprendente, como Obama.
+    c: |
+      Sin embargo, gran parte de los medios de comunicación no lo cubren de
+      manera justa. Para que gane NOSOTROS necesitaremos compartir la visión de
+      Andrew con toda las personas que podamos.
+  what:
+    a:
+      title: Donate to Yang
+      text: Donate to Yang - every little bit helps
+    b:
+      title: Ayuda en Iowa
+      text: Participa en Iowa
+    c:
+      title: Captación politica por teléfono para Yang
+      text: Captación politica por teléfono para Yang
+    d:
+      title: Captación politica por Texto para Yang
+      text: Captación politica por Texto para Yang
+    e:
+      title: Letrero de patio de Andrew Yang
+      text: Obtenga un letrero de patio
+    f:
+      title: Obtenga una pegatina
+      text: Obtenga una pegatina
+    g:
+      title: Preguntas/Respuestas de Yang
+      text: Aprenda mas en Respuestas de Yang
+  why:
+    header: |
+      ¿Por qué este sitio?
+    body: |
+      Queríamos crear algo para ayudar a Andrew Yang a postularse para
+      presidente, y cualquier persona interesada en compartir su mensaje.
+      Siéntase libre de compartir el enlace.
+    thanks: Gracias a los creadores de contenido del trabajo incluído.
+  social:
+    header: Redes sociales de Andrew Yang
+  footer:
+    feedback: Tuitea a @EricCurtis con cualquier sugerencia, pregunta o comentario.
+    pdf: |
+      Haz click aquí para descargar PDF para imprimir tarjetas para empujar
+      gente a este sitio.
+    cards: |
+      Diseño de tarjeta con un enlace a este sitio
