@@ -1,6 +1,8 @@
 es:
   title: Una presentación de Andrew Yang
-  language_toggle: IN ENGLISH
+  lang:
+    link: "/en"
+    text: IN ENGLISH
   intro:
     header: ¿Quien es Andrew Yang?
     a: |

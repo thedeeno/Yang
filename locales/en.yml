@@ -1,6 +1,8 @@
 en:
   title: An Introduction to Andrew Yang
-  language_toggle: EN ESPAÑOL
+  lang:
+    link: "/es"
+    text: EN ESPAÑOL
   intro:
     header: Who is Andrew Yang?
     a: |
