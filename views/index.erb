@@ -63,17 +63,17 @@
         <section class="videos video-column">
 
           <!-- Iowa Press -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DahyKQccudQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <%= youtube_iframe_embed(video_id: "DahyKQccudQ") %>
 
           <p class="video-title"><%= I18n.t('video.iowa_press') %></p>
 
           <!-- Iowa Stump Speech -->
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/GkepAtjSJLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <%= youtube_iframe_embed(video_id: "GkepAtjSJLI", width: 300, height: 200) %>
 
           <p class="video-title"><%= I18n.t('video.iowa_speech') %></p>
 
           <!-- Des Moines Reg -->
-          <iframe width="300" height="200" src="https://www.youtube.com/embed/72fXyHzaNZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <%= youtube_iframe_embed(video_id: "72fXyHzaNZ4", width: 300, height: 200) %>
           <p class="video-title"><%= I18n.t('video.iowa_register') %></p>
 
           <div class="mobile-video-nav hide-desktop">
@@ -118,14 +118,12 @@
       <section class="long-form-videos">
         <h2 id="debates">Debate Performances:</h2>
 
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/dNSGMDu58Ok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/6crg579lpds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/LVkCfCQDXe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/3siHgkArebE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/sSbou44OUHg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/eA-69bxpWfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "dNSGMDu58Ok", width: 300, height: 200) %>
+        <%= youtube_iframe_embed(video_id: "6crg579lpds", width: 300, height: 200) %>
+        <%= youtube_iframe_embed(video_id: "LVkCfCQDXe8", width: 300, height: 200) %>
+        <%= youtube_iframe_embed(video_id: "3siHgkArebE", width: 300, height: 200) %>
+        <%= youtube_iframe_embed(video_id: "sSbou44OUHg", width: 300, height: 200) %>
+        <%= youtube_iframe_embed(video_id: "eA-69bxpWfs", width: 300, height: 200) %>
       </section>
       <section class="long-form-videos">
         <h2 id="longform">
@@ -133,31 +131,31 @@
         </h2>
 
         <!-- Joe Rogan -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/cTsEzmFamZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "cTsEzmFamZ8", width: 300, height: 200) %>
 
         <!-- Karen Hunter -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/XAehF8ZdwIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "XAehF8ZdwIU", width: 300, height: 200) %>
 
         <!-- Useful Idiots -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/iKuZppYwnq4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "iKuZppYwnq4", width: 300, height: 200) %>
 
         <!-- Van Jones -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/kzvi4QBBnec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "kzvi4QBBnec", width: 300, height: 200) %>
 
         <!-- Wapo -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/2aebkCjUSgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "2aebkCjUSgk", width: 300, height: 200) %>
 
         <!-- Shaprio -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/-DHuRTvzMFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "-DHuRTvzMFw", width: 300, height: 200) %>
 
         <!-- Breakfast Club -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/87M2HwkZZcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "87M2HwkZZcw", width: 300, height: 200) %>
 
         <!-- h3 -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/2HXVws8ZQRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "2HXVws8ZQRc", width: 300, height: 200) %>
 
         <!-- Off the pill -->
-        <iframe width="300" height="200" src="https://www.youtube.com/embed/_P5P4_ISofI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <%= youtube_iframe_embed(video_id: "_P5P4_ISofI", width: 300, height: 200) %>
       </section>
     </div>
 
