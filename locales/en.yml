@@ -1,2 +1,102 @@
 en:
-  header: Who is Andrew Yang?
+  title: An Introduction to Andrew Yang
+  lang:
+    link: "/es"
+    text: EN ESPAÑOL
+  intro:
+    header: Who is Andrew Yang?
+    a: |
+      Andrew is a smart, pragmatic, humanity-first leader focused on bringing
+      our country back together. <span class="highlight">It's Not Left, Not
+      Right, it's Forward.</span>
+    b: |
+      Together we can eliminate poverty, transform our economy to handle the
+      automation of jobs, and end the mindset of scarcity.
+    c: |
+      The Freedom Dividend, one of <a href="https://www.yang2020.com/policies/"
+      title="Link to Andrew Yang Policies">150+ policies</a>, would transform
+      towns across America by giving every adult $1,000/mo.
+    img:
+      alt: Freedom Diviend for Des Moines Iowa
+    impact: |
+      See how this would impact your community at
+      <a
+        href="https://everysinglemonth.org/"
+        title="Learn how much the Freedom Dividend would bring to your community"
+      >
+        Every Single Month
+      </a>
+      and visit
+      <a
+        href="https://freedom-dividend.com/"
+        title="Learn the details behind the Freedom Dividend Policy"
+      >
+        Freedom-dividend.com
+      </a> to learn the math behind this policy.
+  learn:
+    header: Learn about Andrew Yang's Policies
+  video:
+    iowa_press: Interview on Iowa Press PBS
+    iowa_speech: Iowa Democratic Party Liberty and Justice Speech
+    iowa_register: Andrew Yang meets with the Register's editorial board
+  debates:
+    teaser: Andrew Yang at the debates
+    header: Debate Performances
+  interviews:
+    teaser: Long form interviews with Andrew Yang
+    header: Long-form interviews
+  victory:
+    header: Andrew's Path to Victory
+    a: |
+      Andrew Yang High Favorability with Independents and Republicans
+    b: |
+      Andrew is starting to break through! And of all the candidates, he has <a
+      href="https://twitter.com/nerdsforyang/status/1210970613826904065"
+      title="Andrew Yang High Favorability with Independents and
+      Republicans">highest favorability</a> with Republicans & Independents.
+    c: |
+      Iowa and New Hampshire do not even vote until early 2020 and they
+      often select someone surprising, like Obama.
+    d: |
+      However, much of the main-stream media does not cover him in a fair
+      manner. For him to win <strong>WE</strong> will need to share Andrew’s
+      vision with as many people as we can.
+  what:
+    header: What can I do?
+    a:
+      title: Donate to Yang
+      text: Donate to Yang - every little bit helps
+    b:
+      title: Help in Iowa
+      text: Participate in Iowa
+    c:
+      title: Phone-bank for Yang
+      text: Phone-bank for Yang
+    d:
+      title: Text-bank for Yang
+      text: Text-bank for Yang
+    e:
+      title: Andrew Yang Yard Signs
+      text: Get a yard sign
+    f:
+      title: Get a bumper sticker
+      text: Get a bumper sticker
+    g:
+      title: Yang Answers
+      text: Learn more at Yang Answers
+  why:
+    header: Why this site?
+    body: |
+      We wanted to create something to help Andrew Yang run for president, and
+      anyone interested in sharing his message. Feel free to share the link.
+    thanks: |
+      Thank you to the content creators of the work we included.
+  social:
+    header: Yang's Social Media Links
+  footer:
+    feedback: Tweet at @EricCurtis with any suggestions, questions, or comments.
+    pdf: |
+      Click here to download a PDF file for a business card pointing users to
+      this site.
+    cards: |
+      Business card design with a link to this site

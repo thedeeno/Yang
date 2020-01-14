@@ -1,6 +1,11 @@
 require 'sinatra'
 require 'i18n'
 require 'i18n/backend/fallbacks'
+require "sinatra/reloader" if development?
+
+configure :development do
+  enable :reloader
+end
 
 def accepted_locales(http_accept_language = request.env['HTTP_ACCEPT_LANGUAGE'])
   #

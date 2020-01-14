@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>An Introduction to Andrew Yang</title>
+    <title><%= I18n.t('title') %></title>
     <link rel="stylesheet" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet" />
     <meta name="description" content="Learn how Andrew Yang can help us eliminate poverty, transform our economy to handle the automation of jobs, and end the mindset of scarcity." />
@@ -42,24 +42,21 @@
       <div class="intro">
         <section class="text-column">
 
-          <h1><%= I18n.t('header') %></h1>
+          <h1><%= I18n.t('intro.header') %> <a href="<%= I18n.t('lang.link') %>"><%= I18n.t('lang.text') %></a></h1>
 
-          <p>
-            Andrew is a smart, pragmatic, humanity-first leader focused on bringing our country back together. <span class="highlight">It's Not Left, Not Right, it's Forward.</span></p>
+          <p><%= I18n.t('intro.a') %></p>
 
-          <h2>
-            Together we can eliminate poverty, transform our economy to handle the automation of jobs, and end the mindset of scarcity.
-          </h2>
+          <h2><%= I18n.t('intro.b') %></h2>
 
-          <p>The Freedom Dividend, one of <a href="https://www.yang2020.com/policies/" title="Link to Andrew Yang Policies">150+ policies</a>, would transform towns across America by giving every adult $1,000/mo.</p>
+          <p><%= I18n.t('intro.c') %></p>
 
-          <img src="/assets/desmoines.png" alt="Freedom Diviend for Des Moines Iowa" class="esm-graphic">
+          <img src="/assets/desmoines.png" alt="<%= I18n.t('intro.img.alt') %>" class="esm-graphic">
 
-          <p class="cta-box4">See how this would impact your community at <a href="https://everysinglemonth.org/" title="Learn how much the Freedom Dividend would bring to your community">Every Single Month</a> and visit <a href="https://freedom-dividend.com/" title="Learn the details behind the Freedom Dividend Policy">Freedom-dividend.com</a> to learn the math behind this policy.</p>
+          <p class="cta-box4"><%= I18n.t('intro.impact') %></p>
 
 
           <h2 class="hide-desktop policy-title">
-            Learn about Andrew Yang's Policies
+            <%= I18n.t('learn.header') %>
           </h2>
         </section>
 
@@ -68,23 +65,23 @@
           <!-- Iowa Press -->
           <%= youtube_iframe_embed(video_id: "DahyKQccudQ") %>
 
-          <p class="video-title">Interview on Iowa Press PBS</p>
+          <p class="video-title"><%= I18n.t('video.iowa_press') %></p>
 
           <!-- Iowa Stump Speech -->
           <%= youtube_iframe_embed(video_id: "GkepAtjSJLI", width: 300, height: 200) %>
 
-          <p class="video-title">Iowa Democratic Party Liberty and Justice Speech</p>
+          <p class="video-title"><%= I18n.t('video.iowa_speech') %></p>
 
           <!-- Des Moines Reg -->
           <%= youtube_iframe_embed(video_id: "72fXyHzaNZ4", width: 300, height: 200) %>
-          <p class="video-title">Andrew Yang meets with the Register's editorial board</p>
+          <p class="video-title"><%= I18n.t('video.iowa_register') %></p>
 
           <div class="mobile-video-nav hide-desktop">
             <h2>More videos below:</h2>
             <ul class="video-list">
-              <li><a href="#debates" title="Andrew Yang Speaking at DNC debates">Andrew Yang at the debates</a></li>
+              <li><a href="#debates" title="<%= I18n.t('debates.teaser') %>"><%= I18n.t('debates.header') %></a></li>
 
-              <li><a href="#longform" title="Andrew Yang long form conversations">Long form interviews with Andrew Yang</a></li>
+              <li><a href="#longform" title="<%= I18n.t('interviews.teaser') %>"><%= I18n.t('interviews.header') %></a></li>
             </ul>
           </div>
 
@@ -95,31 +92,22 @@
     <div class="color-band">
       <div class="main-content">
         <section class="text-content">
-          <h2>
-            Andrew's Path to Victory
-          </h2>
-          <p>
-            Andrew is starting to break through! And of all the candidates, he has <a href="https://twitter.com/nerdsforyang/status/1210970613826904065" title="Andrew Yang High Favorability with Independents and Republicans">highest favorability</a> with Republicans & Independents.</p>
-          <p>
-            Iowa and New Hampshire do not even vote until early 2020 and they
-            often select someone surprising, like Obama.
-          </p>
-          <p> However, much of the main-stream media does not cover him in a fair manner. For him to win <strong>WE</strong> will need to share Andrew’s vision with as many people as we can.
-          </p>
+          <h2><%= I18n.t('victory.header') %></h2>
+          <p><%= I18n.t('victory.a') %></p>
+          <p><%= I18n.t('victory.b') %></p>
+          <p><%= I18n.t('victory.c') %></p>
         </section>
 
         <section class="text-content">
-          <h2>
-            What can I do?
-          </h2>
+          <h2><%= I18n.t('what.header') %></h2>
           <ul class="video-list ta-left">
-            <li><a href="https://www.yang2020.com/" title="Donate to Yang">Donate to Yang - every little bit helps</a></li>
-            <li><a href="https://www.yang2020.com/Iowa/" title="Help in Iowa">Participate in Iowa</a></li>
-            <li><a href="https://www.yang2020.com/call/" title="Phone-bank for Yang">Phone-bank for Yang</a></li>
-            <li><a href="https://www.yang2020.com/text/" title="Text-bank for Yang">Text-bank for Yang</a></li>
-            <li><a href="https://shop.yang2020.com/collections/signs" title="Andrew Yang Yard Signs">Get a yard sign</a></li>
-            <li><a href="https://shop.yang2020.com/collections/bumper-stickers" title="Andrew Yang Bumper Stickers">Get a bumper sticker</a></li>
-            <li><a href="https://yanganswers.com/" title="Yang Answers">Learn more at Yang Answers</a></li>
+            <li><a href="https://www.yang2020.com/" title="<%= I18n.t('what.a.title') %>"><%= I18n.t('what.a.text') %></a></li>
+            <li><a href="https://www.yang2020.com/Iowa/" title="<%= I18n.t('what.b.title') %>"><%= I18n.t('what.b.text') %></a></li>
+            <li><a href="https://www.yang2020.com/call/" title="<%= I18n.t('what.c.title') %>"><%= I18n.t('what.c.text') %></a></li>
+            <li><a href="https://www.yang2020.com/text/" title="<%= I18n.t('what.d.title') %>"><%= I18n.t('what.d.text') %></a></li>
+            <li><a href="https://shop.yang2020.com/collections/signs" title="<%= I18n.t('what.e.title') %>"><%= I18n.t('what.e.text') %></a></li>
+            <li><a href="https://shop.yang2020.com/collections/bumper-stickers" title="<%= I18n.t('what.f.title') %>"><%= I18n.t('what.f.text') %></a></li>
+            <li><a href="https://yanganswers.com/" title="<%= I18n.t('what.g.title') %>"><%= I18n.t('what.g.text') %></a></li>
           </ul>
 
         </section>
@@ -174,21 +162,13 @@
     <div class="color-band">
       <div class="main-content">
         <section class="text-content">
-          <h2>Why this site?</h2>
-          <p>
-            We wanted to create something to help Andrew Yang run for president,
-            and anyone interested in sharing his message. Feel free to share the
-            link.
-          </p>
-          <p>
-            Thank you to the content creators of the work I included.
-          </p>
+          <h2><%= I18n.t('why.header') %></h2>
+          <p><%= I18n.t('why.body') %></p>
+          <p><%= I18n.t('why.thanks') %></p>
         </section>
 
         <section class="text-content">
-          <h2>
-            Yang's Social Media Links
-          </h2>
+          <h2><%= I18n.t('social.header') %></h2>
           <ul class="social-links">
             <li>
               <a href="https://www.facebook.com/andrewyang2020/" title="Andrew Yang for President 2020 Home on Facebook">Facebook</a>
@@ -215,10 +195,10 @@
 
     <footer>
       <div class="main-content">
-        Tweet at @EricCurtis with any suggestions, questions, or comments.<br /><br />
-        <a href="assets/YouTube-Andrew-Business-card.pdf" title="Business card design with a link to this site">
-          Click here to download a PDF file for a business card pointing users
-          to this site.
+        <%= I18n.t('footer.feedback') %>
+        <br /><br />
+        <a href="assets/YouTube-Andrew-Business-card.pdf" title="<%= I18n.t('footer.cards') %>">
+          <%= I18n.t('footer.pdf') %>
         </a>
       </div>
     </footer>
