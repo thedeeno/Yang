@@ -353,7 +353,7 @@ footer div {
   color: #fff;
   opacity: 0.5;
   font-size: 14px;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
 }
 
 footer div a,
