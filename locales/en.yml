@@ -94,7 +94,9 @@ en:
   social:
     header: Yang's Social Media Links
   footer:
-    feedback: Tweet at @EricCurtis with any suggestions, questions, or comments.
+    contributors: |
+      Built by @EricCurtis, @thedeeno, @wayside5
+    feedback: Tweet at us with any suggestions, questions, or comments.
     pdf: |
       Click here to download a PDF file for a business card pointing users to
       this site.

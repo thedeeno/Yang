@@ -95,11 +95,14 @@ es:
       Queríamos crear algo para ayudar a Andrew Yang a postularse para
       presidente, y cualquier persona interesada en compartir su mensaje.
       Siéntase libre de compartir el enlace.
-    thanks: Gracias a los creadores de contenido del trabajo incluído.
+    thanks: |
+      Gracias a los creadores de contenido del trabajo incluído.
   social:
     header: Redes sociales de Andrew Yang
   footer:
-    feedback: Tuitea a @EricCurtis con cualquier sugerencia, pregunta o comentario.
+    contributors:
+      Construido por @EricCurtis, @thedeeno, @wayside5
+    feedback: tuitearnos con cualquier sugerencia, pregunta o comentario.
     pdf: |
       Haz click aquí para descargar PDF para imprimir tarjetas para empujar
       gente a este sitio.
