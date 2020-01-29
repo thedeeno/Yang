@@ -63,7 +63,11 @@
         <section class="videos video-column">
 
           <!-- Iowa Press -->
+          <% if I18n.locale.to_s != "es" %>
           <%= youtube_iframe_embed(video_id: "DahyKQccudQ") %>
+          <% else %>
+          <%= youtube_iframe_embed(video_id: "vet_lwL8YMM") %>
+          <% end %>
 
           <p class="video-title"><%= I18n.t('video.iowa_press') %></p>
 
