@@ -62,14 +62,18 @@
 
         <section class="videos video-column">
 
+          <!-- CNN -->
+          <%= youtube_iframe_embed(video_id: "xGdKJvBx7Uk") %>
+          <p class="video-title"><%= I18n.t('video.top') %></p>
+
           <!-- Iowa Press -->
           <% if I18n.locale.to_s != "es" %>
             <%= youtube_iframe_embed(video_id: "JwW8-R9TH5I") %>
           <% else %>
-            <%= youtube_iframe_embed(video_id: "xGdKJvBx7Uk") %>
+            <%= youtube_iframe_embed(video_id: "vet_lwL8YMM") %>
           <% end %>
 
-          <p class="video-title"><%= I18n.t('video.top') %></p>
+          <p class="video-title"><%= I18n.t('video.iowa_press') %></p>
 
           <!-- Iowa Stump Speech -->
           <%= youtube_iframe_embed(video_id: "GkepAtjSJLI", width: 300, height: 200) %>
