@@ -282,6 +282,7 @@ iframe {
 .color-band,
 footer {
   background: #0e2b64;
+  min-height: 50px;
 }
 
 .color-band .main-content {
@@ -292,7 +293,9 @@ footer {
 @media (min-width: 720px) {
   .color-band {
     margin-top: 20px;
-    padding: 15px 0 10px 0;
+    /* padding: 15px 0 10px 0; when text is present*/
+    margin-bottom: 25px;
+    padding: 3px 0;
   }
 }
 
